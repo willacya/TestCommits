@@ -1,4 +1,5 @@
 #coding=utf-8
 
 def test():
-	print 10
+	for i in range(10):
+		print i
