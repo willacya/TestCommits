@@ -1,11 +1,8 @@
 #coding=utf-8
 
-def test():
+def test(num):
 	for i in range(10):
-		print i
+		print i*num
 
 if __name__ == ‘__main__’:
-	test()
-
-#comment
-#next comment
+	test(5)
